@@ -2,21 +2,85 @@
 <html lang="en">
    
     <head>
+        <div container>
         <meta charset="utf-8"/>
         <title>Portfolio</title>
+        <style>
+            body {
+                font-family: Arial;
+                font-size: 16px;
+                margin: 0;
+                background-color: #FEE5F8;
+            }
+            h1 {
+                font-size: 3em;
+                color: #5B2840;
+                margin: 1rem;
+                margin-left: 5rem;
+            }
+
+            h1:hover {
+            background-color: pink;
+            }
+
+            h2 {
+                color: #5B2840;
+                font-size: 2em;
+                margin: 1rem;
+                margin-left: 1rem;
+                margin-top: 1rem;
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+
+            }
+
+            h2:hover {
+                background-color: pink;
+
+            }
+
+            p {
+                color: #3D3B3B;
+            }
+
+            .Ho {
+            background-color: #F8F8F8;
+            text-align: center;
+
+
+            }
+
+            .init {
+            background-color: #F8F8F8;
+            }
+            .Img {
+                text-align: center;
+            }
+        
+        ul > p {
+            margin-left: -30px;
+        }
+
+        </style>
     </head>
 <body>
-     
+    <div class="Img">
+     <div class="init">
     <h1>Joanelly Cruz</h1>
-    <figure><img src="https://artfiles.alphacoders.com/645/64524.jpg" alt="Kirby" height="400" width="500"></figure>
+</div>
+    <figure><img src="https://media0.giphy.com/media/6Uj6lFq4KWDQY/source.gif" alt="Kirby" height="400" width="500"></figure>
         <small>Disclaimer: Picture <strong><em>may or may not </em></strong> actually be me.</small>
     <hr>
+
+    <figure><img src="https://i.pinimg.com/originals/2f/c1/b8/2fc1b8f82e14172e3bcae39ca8c8ab33.gif" alt="Kirby2" height="90" width="100"></figure>
+</div>
+    <div class="Ho">
     <h2>Skills:</h2>
     <ul>
-        <li>Drawing</li>
-        <li>Photoshop</li>
-        <li>Flask</li>
-        <li>Python</li>
+        <p>Drawing</p>
+        <p>Photoshop</p>
+        <p>Flask</p>
+        <p>Python</p>
     </ul>
 
     <h2>Projects:</h2>
@@ -37,6 +101,7 @@
 
         <hr>
         <h2>Contact me!</h2>
+        <h4>joanelly2018@gmail.com</h4>
         <h4>Enter your email below along with a message.</h4>
         <label>
         Email
@@ -44,9 +109,10 @@
     </label>
     <label>
         Message
-        <input type="text" name="message">
-
+        <textarea name="text"
     </label>
+    </textarea>
+
     <h5>Also... what is your favorite animal?</h5>
     <label>
         Bunny
@@ -63,6 +129,9 @@
                 <input type="radio" name="animal"
                  </label>
     <input type="submit">
+                </div>
+            </div>
 
 </body>
+
 </html>
